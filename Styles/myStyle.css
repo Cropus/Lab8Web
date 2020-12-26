@@ -1,0 +1,278 @@
+body {
+	min-width: auto;
+	margin: 0;
+	background-color: whitesmoke;
+    text-align-all: center;
+	color: #303030;
+	font-size: 20px;
+    line-height: 28px;
+    font-family: "Langar", cursive;
+    font-weight: normal;
+}
+
+.heading {
+    margin: 20px 20px 24px;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+}
+
+.header {
+    background-color: #e0e0e0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.header a {
+    color: #303030;
+    text-decoration: none;
+    border: #303030 solid 2px;
+    border-radius: 3px;;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 10px;
+}
+
+.header a:hover {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+.book-link {
+    text-decoration: none;
+    color: #303030;
+}
+
+.book-link:hover {
+    text-decoration: underline;
+}
+
+aside {
+    padding: 0;
+    width: 30%;
+    float: right;
+    font-size: 30px;
+}
+
+.sidebar {
+    padding: 50px;
+}
+
+.sidebar p {
+    font-size: 20px;
+}
+
+figure {
+    display: block;
+    text-align: center;
+}
+
+.main-image {
+    width: 60%;
+    height: 60%;
+	border-radius: 30%;
+    margin: 25px auto 15px auto;
+}
+
+.side-image {
+    border-radius: 10%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.container p a {
+	color: #ff0;
+	text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.photo {
+    height: 14%;
+    width: 14%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.contacts {
+    text-align: center;
+    display: flex;
+}
+.contacts a {
+    color: #fea18d;
+    background-repeat: no-repeat;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.review {
+    background: #e5e5e5;
+    width: 20%;
+    border-radius: 5px;
+    color: #303030;
+    padding: 15px;
+    box-shadow: 6px 3px 3px #ddd;
+}
+
+.review p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.review img {
+    float: right;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 0, 0.3);
+    margin-left: 5px;
+}
+
+.toTop {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+}
+
+.scroll {
+    border-radius: 5px;
+    margin: auto;
+}
+
+.map {
+    margin: 50px;
+    height: 70vh;
+    width: 65vw;
+    background-color: whitesmoke;
+    border: #101010;
+}
+
+.feedback {
+    padding: 50px 50px 50px 70px;
+}
+.feedback input {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: white;
+    line-height: 40px;
+    border: 2px solid #303030;
+    border-radius: 5px;
+    font-family: 'Langar', cursive;
+}
+.feedback input[type="submit"] {
+    padding-left: 20px;
+    margin-top: 30px;
+    background: white;
+    border: 2px solid #303030;
+    color: #303030;
+    font-size: 14px;
+}
+
+.feedback h3 {
+    margin-top: 0;
+    font-family: 'Langar', cursive;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #303030;
+}
+
+.separator {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.separator::before, .separator::after{
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.separator::before, .separator-f::before {
+    margin-right: .25em;
+}
+
+.separator::after, .separator-f::after {
+    margin-left: .25em;
+}
+
+.separator-f {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.separator-f::before, .separator-f::after{
+    content: '';
+    flex: 1;
+}
+
+.buy-button{
+    padding: 20px;
+    background: white;
+    border: 2px solid #303030;
+    color: #303030;
+    height: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.buy-button:hover{
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+.footer {
+    padding: 30px 0;
+    margin-top: 30px;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.footer a {
+    color: #303030;
+    text-decoration: none;
+    border: #303030 solid 2px;
+    border-radius: 3px;;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 10px;
+}
+
+.footer a:hover {
+    background-color: rgba(255, 255, 0, 0.3);
+}
